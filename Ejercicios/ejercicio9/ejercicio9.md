@@ -16,4 +16,4 @@
 
 ### Qué es un WebHook
 
-Un webhook es una forma de que unas aplicaciones proporcionen información en tiempo real a otras. Los webhook entregan datos a otras aplicaciones a que ocurre, lo que significa que obtiene datos de inmediato.
+Un webhook es una forma de que unas aplicaciones proporcionen información en tiempo real a otras. Los webhook entregan datos a otras aplicaciones cada vez que un evento ocurre, lo que significa que obtiene datos de inmediato.
