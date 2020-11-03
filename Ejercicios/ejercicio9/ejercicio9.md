@@ -12,7 +12,7 @@
 
 ![sinIntegracion](images/im2.png)
 
-- Al añadir la integración continua añadimos un webhook entre GitHub y travis
+- Al añadir la integración continua añadimos un webhook entre GitHub y travis.
 
 ### Qué es un WebHook
 
