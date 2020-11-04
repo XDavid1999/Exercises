@@ -1,6 +1,6 @@
 # Configurando integración continua para nuestra app
 
-- Necesitaremos crear dentro de nuestro [proyecto](https://github.com/XDavid1999/PacketService) un archivo [.travis.yml](https://github.com/XDavid1999/PacketService/blob/master/.travis.yml) que proporcione a travis aspectos relevantes de nuestro proyecto. Lo que travis hará, por defecto, será pasar los [test](https://github.com/XDavid1999/PacketService/blob/master/test/packetServiceTest.js) que tengamos hechos.
+- Necesitaremos crear dentro de nuestro [proyecto](https://github.com/XDavid1999/PacketService) un archivo [.travis.yml](https://github.com/XDavid1999/PacketService/blob/master/.travis.yml) que proporcione a travis información acerca de aspectos relevantes de nuestro proyecto. Lo que travis hará, por defecto, será pasar los [test](https://github.com/XDavid1999/PacketService/blob/master/test/packetServiceTest.js) que tengamos hechos.
 - En este archivo especificaremos nuestro lenguaje, en nuestro caso *node_js*,con el tag **language**.
 - La versión de este que usaremos, *v10.19.0*, en nuestro caso con **node_js**.
 - El objetivo a realizar previo a la instalación, en nuestro caso construir nuestro contenedor, con **before_install**.
