@@ -6,7 +6,7 @@
 - Los paquetes a instalar, en nuestro caso nuestro taskrunner, con **install**.
 - La orden que ejecutará travis, que será instalar las dependencias y correr los test con nuestro *taskrunner*, con **script**.
 
-En este caso, al usar docker, no sería necesario especificar ni el lenguaje que utilizaremos ni la versión del mismo ya que los test correrán dentro de nuestro contenedor, que ya tiene todo lo necesario.
+En este caso no usamos docker, si lo hicieramos, no sería necesario especificar ni el lenguaje que utilizaremos ni la versión del mismo ya que los test correrán dentro de nuestro contenedor, que ya tiene todo lo necesario.
 
 ## Script
 
@@ -25,6 +25,17 @@ install:
   script:
   - gulp install
   - gulp test
+~~~
+
+## Script para testear con docker
+
+~~~
+install:
+  - docker build -t xdavid1999/packetservice .
+
+
+script:
+  - docker run -t -v `pwd`:/test xdavid1999/packetservice
 ~~~
 
 ## Último build correcto
