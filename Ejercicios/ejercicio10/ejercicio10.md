@@ -20,9 +20,11 @@ node_js:
 before_install:
   - npm install -g gulp
 
-  script:
-  - gulp install
-  - gulp test
+install:
+ - gulp install
+
+script:  
+ - gulp test
 ~~~
 
 ## Script para testear con docker
