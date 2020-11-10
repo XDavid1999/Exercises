@@ -4,7 +4,8 @@
 - En este archivo especificaremos nuestro lenguaje, en nuestro caso *node_js*,con el tag **language**.
 - Probaremos distintas versiones de nuestro lenguaje, en este caso: *10.19.0, 12.19.0 y 15.1.0*. Para ello solo deberemos poner el tag **node_js** y debajo las versiones a testear.
 - Los paquetes a instalar, en este caso nuestro *taskrunner*, con **before_install**.
-- Las ordenes que ejecutará travis, que en este caso será instalar las dependencias y correr los test con nuestro *taskrunner*, con **script**.
+- Instalaremos las dependencias, en este caso con npm install, ya que tras varias horas de búsqueda no encontramos como hacerlo corrrectamente con nuestro *taskrunner*, con **install**
+- La orden que ejecutará travis, que en este caso será correr los test con nuestro *taskrunner*, con **script**.
 
 En este caso no usamos docker, si lo hicieramos, no sería necesario especificar ni el lenguaje que utilizaremos ni la versión del mismo ya que los test correrán dentro de nuestro contenedor, que ya tiene todo lo necesario.
 
