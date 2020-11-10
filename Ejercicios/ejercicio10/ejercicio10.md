@@ -21,7 +21,7 @@ before_install:
   - npm install -g gulp
 
 install:
- - gulp install
+ - npm install
 
 script:  
  - gulp test
