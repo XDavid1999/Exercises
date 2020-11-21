@@ -14,3 +14,7 @@ module.exports = (req, res) => {
 
 - Con este conseguiremos que se reciba en la URL como parámetro un nombre y que se devuelva un saludo a este.
 - Podemos ver después de haber actualizado los cambios en nuestro repositorio que funciona correctamente.
+
+![correcto](images/im1.png)
+
+- Puede probarse este sencillo ejemplo en [este enlace](https://exercises.xdavid1999.vercel.app/api/hello.js?name=David).
