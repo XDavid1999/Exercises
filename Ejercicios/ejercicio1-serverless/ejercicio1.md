@@ -13,6 +13,7 @@ Configurar Vercel para uno de nuestros proyectos es, como veremos, extremadament
 - Nos pedirá entonces que nos logeemos con nuestro e-mail, se nos enviará un correo de confirmación y, confirmado el correo, ejecutaremos nuevamente **vercel**. 
 - Una vez realizado el paso anterior el programa nos informa de que para desplegar para producción simplemente deberemos ejecutar **vercel --prod**.
 - Finalizado el proceso podremos ver en la página de inicio como nuestro proyecto funciona correctamente.
+
 ![correcto](images/im1.png)
 
 ## Firebase
