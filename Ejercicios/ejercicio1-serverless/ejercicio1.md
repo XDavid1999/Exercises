@@ -27,4 +27,4 @@ En este caso procederemos a darnos de alta en Firebase y descargarnos sus SDKs. 
 
 - Hecho el paso anterior comprobaremos que todo funciona correctamente listandi los proyectos que tenemos en firebase.
 
-![proyects](images/im2.png)
+![proyects](images/im3.png)
