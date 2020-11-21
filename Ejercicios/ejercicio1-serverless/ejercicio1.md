@@ -1,6 +1,6 @@
 # Configurando Vercel y Firebase para poder trabajar con ellos localmente
 
-Las computación serverless es un modelo de ejecución de la computación en la propia nube en el que el proveedor de la misma tiene en funcionamiento un servidor que provee de los recursos necesarios a los usuarios de esta dinámicamente. Ello beneficia al cliente en distintos aspectos como: prescindir de las máquinas necesarias para el despliegue, la inversión en actualizaciones hardware de las mismas, posibilidad de acceso desde cualquier dispositivo, etc. Para el proveedor de estos servicios también es más sencillo el cobro de los costos por utilización ya que con este modelo el uso de los recursos por parte del usuario es más cuantificable.
+La computación serverless es un modelo de ejecución de la computación en la propia nube en el que el proveedor de la misma tiene en funcionamiento un servidor que provee de los recursos necesarios a los usuarios de esta dinámicamente. Ello beneficia al cliente en distintos aspectos como: prescindir de las máquinas necesarias para el despliegue, la inversión en actualizaciones hardware de las mismas, posibilidad de acceso desde cualquier dispositivo, etc. Para el proveedor de estos servicios también es más sencillo el cobro de los costos por utilización ya que con este modelo el uso de los recursos por parte del usuario es más cuantificable.
 
 ## Vercel
 
