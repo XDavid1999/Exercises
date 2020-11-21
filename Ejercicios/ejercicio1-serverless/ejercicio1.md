@@ -22,6 +22,9 @@ En este caso procederemos a darnos de alta en Firebase y descargarnos sus SDKs. 
 - Firebase es una plataforma de desarrollo de aplicaciones creada por el propio Google por lo que no será necesario crear una cuenta para poder utilizarlo.
 - Crearemos entonces un nuevo proyecto en la plataforma e instalaremos Firebase CLI. Podemos ver en la propia [página](https://firebase.google.com/docs/cli?authuser=0#mac-linux-npm) del sotware como hacerlo con npm o con cURL. En nuestro caso ejecutaremos **curl -sL https://firebase.tools | bash**.
 - Para acceder al mismo  ejecutamos **firebase login** conectando así nuestro PC y Firebase, pudiendo acceder a los proyectos en la plataforma desde nuestra máquina.
+
 ![login](images/im2.png)
+
 - Hecho el paso anterior comprobaremos que todo funciona correctamente listandi los proyectos que tenemos en firebase.
+
 ![proyects](images/im2.png)
